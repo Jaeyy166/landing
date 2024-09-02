@@ -1,42 +1,47 @@
-html {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: plum;
+body {
+  background-color: #1F2937;
+}
+/*containers flex*/
+.hero-container {
+  display: flex;
+  flex-direction: column;
+}
+.info-container {
+  background-color: white;
+}
+.quote-container {
+  background-color: #E5E7EB;
+}
+.signup-container {
+  background-color: white;
 }
 
-/* all header elements styles goes here*/
-.header {
+/*hero section*/
+.hero-logo {
+  color: #F9FAF8;
+  font-size: 24px;
+}
+.hero-second {
+  color: #E5E7EB;
+}
+.hero-main {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.header-container {
   display: flex;
   flex-direction: row;
-  background-color: peachpuff;
-  margin: 0px;
-}
-
-.logo {
-  flex-grow: 1;
-  font-family: 'Arial Narrow Bold';
-  font-size: 20px;
-  margin: 20px;
-  margin-left: 50px;
 }
 
 .nav {
-
-}
-
-/* all section 1  elements styles goes here*/
-.sec1 {
-  display: flex;
+  text-decoration: none;
   flex-direction: row;
-  justify-content: space-evenly;
-  background-color: peachpuff;
-  margin: 0px;
 }
-.welcome-half {
 
-}
-.welcome-half2 {
-  width: 300px;
-  height: 100px;
-  border-color: gray;
-  
-}
+/*information section*/
+
+
+/*quote section*/
+/*signup section*/
