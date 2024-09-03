@@ -21,10 +21,9 @@ body {
 .hero-logo {
   color: #F9FAF8;
   font-size: 24px;
+  flex-grow: 1;
 }
-.hero-second {
-  color: #E5E7EB;
-}
+
 .hero-main {
   color: #F9FAF8;
   font-size: 48px;
@@ -34,12 +33,36 @@ body {
 .header-container {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
-.nav {
+.container-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 400px;
+}
+
+.hero-nav {
+  color: #E5E7EB;
   text-decoration: none;
   flex-direction: row;
+  margin-right: 20px;
 }
+.link {
+  text-decoration: none;
+  color: #E5E7EB;
+  margin: 2px;
+}
+
+.welcome-div {
+  flex-direction: column;
+  width: 500px;
+}
+.placeholder-div {
+  align-self: center;
+}
+
 
 /*information section*/
 
