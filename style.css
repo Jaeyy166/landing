@@ -103,11 +103,20 @@ body {
   justify-content: center; 
   align-self: center;
   background-color: blue;
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 10px;
 }
 
 .info-pics {
+  display: flex;
   flex-direction: row;
   background-color: red;
+}
+
+.fig-container {
+  background-color: beige;
 }
 
 /*quote section*/
