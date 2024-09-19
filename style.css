@@ -96,13 +96,12 @@ body {
   width: 770px;
   margin-left: 100px;
   margin-right: 100px;
-  background-color: green;
 }
 
 .info-title {
+  display: flex;
   justify-content: center; 
   align-self: center;
-  background-color: blue;
   color: #1F2937;
   font-size: 36px;
   font-weight: 900;
@@ -117,6 +116,14 @@ body {
 
 .fig-container {
   background-color: beige;
+  border-style: solid; 
+  border-radius: 10px;
+  border-color: #3882F6
+}
+
+.images-size {
+  height: 100px;
+  width: ;
 }
 
 /*quote section*/
