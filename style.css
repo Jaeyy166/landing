@@ -92,7 +92,7 @@ body {
 .info-div {
   display: flex;
   flex-direction: column;
-  height: 350px;
+  height: 450px;
   width: 770px;
   margin-left: 100px;
   margin-right: 100px;
@@ -105,25 +105,38 @@ body {
   color: #1F2937;
   font-size: 36px;
   font-weight: 900;
-  margin-bottom: 10px;
 }
 
 .info-pics {
   display: flex;
   flex-direction: row;
-  background-color: red;
 }
 
 .fig-container {
   background-color: beige;
   border-style: solid; 
   border-radius: 10px;
-  border-color: #3882F6
+  border-color: #3882F6;
+  border-width: 3px;
+  height: 150px;
 }
 
 .images-size {
-  height: 100px;
-  width: ;
+  height: 150px;
+  width: 110px;
+  border-radius: 10px;
+}
+
+.gigachad {
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.show-title {
+  font-weight: bold;
+  text-align: center;
 }
 
 /*quote section*/
