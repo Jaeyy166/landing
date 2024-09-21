@@ -141,4 +141,32 @@ body {
 }
 
 /*quote section*/
+.quote-div {
+  margin-left: 185px;
+  margin-right: 100px;
+  height: 400px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: red;
+}
+
+.quote-text {
+  display: flex;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1F2937;
+  align-self: center; 
+  background-color: green;
+}
+
+.quote-source {
+  display: flex;
+  background-color: yellow;
+  color: #1F2937;
+  font-size: 18px;
+}
 /*signup section*/
