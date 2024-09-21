@@ -18,6 +18,7 @@ body {
 }
 .signup-container {
   background-color: white;
+  height: 400px;
 }
 
 /*hero section*/
@@ -96,6 +97,7 @@ body {
   width: 770px;
   margin-left: 100px;
   margin-right: 100px;
+  padding-bottom: 10px;
 }
 
 .info-title {
@@ -150,23 +152,36 @@ body {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  background-color: red;
 }
 
 .quote-text {
   display: flex;
   font-size: 36px;
   font-style: italic;
-  font-weight: lighter;
+  font-weight: 200;
   color: #1F2937;
   align-self: center; 
-  background-color: green;
+  margin-bottom: 10px
 }
 
 .quote-source {
   display: flex;
-  background-color: yellow;
   color: #1F2937;
   font-size: 18px;
+  height: 25px;
+  width: 100px;
+  align-self: flex-end;
+  margin-top: 0px;
+  font-weight: bold;
 }
+
 /*signup section*/
+.signup-div {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-content: center;
+  background-color: #3882F6;
+  height: 200px;
+  width: 600px;
+}
