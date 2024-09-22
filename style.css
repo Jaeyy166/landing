@@ -215,3 +215,10 @@ body {
 .signup-title {
   font-weight: bold;
 }
+
+footer {
+  color: #F9FAF8;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
