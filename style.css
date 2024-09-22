@@ -19,6 +19,9 @@ body {
 .signup-container {
   background-color: white;
   height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*hero section*/
@@ -178,10 +181,37 @@ body {
 /*signup section*/
 .signup-div {
   display: flex;
-  flex-direction: column;
-  justify-self: center;
-  align-content: center;
+  flex-direction: row;
+  justify-content: space-evenly;
   background-color: #3882F6;
-  height: 200px;
-  width: 600px;
+  height: 130px;
+  width: 690px;
+  border-radius: 5px;
+}
+
+.signup-text {
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  color: white;
+  width: 350px;
+  height: 100px;
+  text-wrap: wrap;
+}
+
+.signup-button {
+  align-self: center;
+  color: white;
+  background-color: #3882F6;
+  font-weight: bold;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1.5px;
+  border-color: white;
+  height: 30px;
+  width: 100px;
+}
+
+.signup-title {
+  font-weight: bold;
 }
